@@ -1,11 +1,12 @@
-# ase2019-kokodzambo-and-forward
-ase2019-kokodzambo-and-forward created by GitHub Classroom
+# AWS-Educate
+
+This repo is a simple test of AWS's capabilities.
 
 Authors:
 Bartosz Bieliński,
 Piotr Winkler
 
-In order to run the project firstly create .csv file from provided "data_gr_A.json" file. To do this run script "load_data_to_csv.py". If default Amazon S3 buckets are termianted you need to create your own bucket, upload CSV file to it and adjust paths to data.
+In order to run this project firstly create .csv file from provided "data_gr_A.json" file. To do this run script "load_data_to_csv.py". If default Amazon S3 buckets are termianted you need to create your own bucket, upload CSV file to it and adjust paths to data.
 Then run EMR PySpark cluster using AWS and connect with it by putty. In hadoop console type "pyspark" in order to enter pyspark console. After that rewrite to the console all commands from "project.py" script in given order. Some variables like place or names can be modified in order to get different results. 
 
 First query will give you number of people having the same name and working in the same city in the same company.
